@@ -7,17 +7,21 @@
     justify-content: center;
 }
 
+    .main-container{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+  background: url(https://r-cf.bstatic.com/images/hotel/max1280x900/517/51772890.jpg);
 
-
-a{
-    text-decoration: none;
-    opacity: 0.75;
-    color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3{
+    text-align:left;
 }
 
-a:hover{
-    opacity: 1;
-}
 
  .purple-color{
     color:#8845f4;
@@ -26,6 +30,7 @@ a:hover{
  .half-width{
      width:50%;
      float:left;
+     padding-bottom:30px;
  }
  .side-img{
      width:50%;
@@ -64,7 +69,7 @@ a:hover{
      font-size:2.5em;
  }
  .container{
-     padding-left:5%;
+     padding:70px;
      display:inline-block;
  }
  .experiences{
@@ -85,6 +90,7 @@ a:hover{
  .experience-item{
      padding:10px;
      border-left:1px solid rgba(137,130,247,.2);
+     display: flex;
  }
 .destinations .grid li {
     height: 350px;
@@ -110,6 +116,7 @@ a:hover{
     }
 
 }
+full-width{}
 
 @media (max-width: 800px) {
     .destinations .grid li.small,
