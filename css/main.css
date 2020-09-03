@@ -30,7 +30,7 @@ h3{
  .half-width{
      width:50%;
      float:left;
-     padding-bottom:30px;
+     padding-bottom:10px;
  }
  .side-img{
      width:50%;
@@ -116,7 +116,7 @@ h3{
     }
 
 }
-full-width{}
+full-w
 
 @media (max-width: 800px) {
     .destinations .grid li.small,
